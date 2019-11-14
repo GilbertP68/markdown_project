@@ -68,7 +68,7 @@ knitr::kable(head(gapminder, n = 5), format = "html", caption = "A table of data
 <div class = "row">
 
 <div class="col-md-6">
-```{r straw_grain-plot, out.width='100%', fig.align='center', fig.height= 4, fig.width=6, fig.cap="Amount of phosphorus (ppm) in straw vs in grains"}
+```{r strawgrain-plot, out.width='100%', fig.align='center', fig.height= 4, fig.width=6, fig.cap="Amount of phosphorus (ppm) in straw vs in grains"}
 straw_grain_p <- read_csv("clean_data/straw_grain_p.csv")
 
 straw_grain <- ggplot(data = straw_grain_p,
@@ -88,7 +88,7 @@ straw_grain +
 </div>
 
 <div class="col-md-6">
-```{r P_yield-plot, out.width='100%', fig.align='center', fig.height= 4, fig.width=6, fig.cap="Amount of phosphorus in straw and grains vs grain yield"}
+```{r Pyield-plot, out.width='100%', fig.align='center', fig.height= 4, fig.width=6, fig.cap="Amount of phosphorus in straw and grains vs grain yield"}
 good_data <- read_csv("clean_data/good_data_york_pxrf.csv")  
 
 yield_Pconc <- ggplot(data = good_data,
