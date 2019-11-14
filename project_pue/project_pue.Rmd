@@ -54,19 +54,45 @@ knitr::kable(head(gapminder, n = 5), format = "html", caption = "A table of data
 
 **Images from a file**
 
-![](resources/img/tidyverse.png){width=100px}
+![](resources/img/pXRF.jpg){width=100px}
 
 **Plots from R**
 ```{r standard-plot, out.width='60%', fig.align='center', fig.height= 4, fig.width=6, fig.cap="Yet another gapminder plot"}
-gapminder %>% 
-  filter(year == 1987) %>% 
-  ggplot(aes(x = gdpPercap, y = lifeExp, colour = continent, size = pop)) +
+straw_grain_p <- read_csv("clean_data/straw_grain_p.csv")
+
+straw_grain <- ggplot(data = straw_grain_p,
+                      mapping = aes(x = grain_pconc,
+                                    y = straw_pconc,
+                                    colour = PAP.x
+                                    )) +
+  geom_point(alpha = 0.2) +
+  geom_smooth(method = "lm", size = 0.5, se = FALSE)
+
+straw_grain +
+  labs(title = "Amount of P in straw vs amount of P in grains",
+       caption = "Data from straw_grain_p",
+       x = "Grains",
+       y = "Straw") +
+  geom_point(alpha = 0.2)
+
+good_data <- read_csv("clean_data/good_data_york_pxrf.csv")  
+
+yield_Pconc <- ggplot(data = good_data,
+                        mapping = aes(x = yield,
+                                      y = `P Concentration`,
+                                      colour = PAP,
+                                      shape = SUBSAMPLE
+                        )) +
   geom_point() +
-  scale_x_log10(labels = function(b) format(b, scientific = F)) +
-  scale_size(trans = "sqrt", guide = "none") +
-  scale_color_brewer(palette = "Set1") +
-  theme_linedraw() +
-  theme(legend.position = "bottom")
+  geom_smooth(method = "lm", size = 0.5, se = FALSE)
+
+yield_Pconc +
+  labs(title = "Phosphorus concentration in straw and grains vs grain yield",
+       caption = "Data from good_data_york_pxrf.csv",
+       x = "Yield (Kg)",
+       y = "P Concentration (ppm)") +
+  geom_point()
+
 ```
 
 Your figure and table captions are automatically numbered and can be referenced in the text
