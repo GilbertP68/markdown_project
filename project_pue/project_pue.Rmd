@@ -1,9 +1,9 @@
 ---
-title: pXRF on wheat plants
+title: Investigating the use of portable X-ray fluorescence spectroscopy for rapid quantification of Phosphorus in wheat straw and grains
 subtitle: 
-author:  Your Name
-affiliation: CSIRO Business Unit # Or group/team
-photo: resources/img/photo.jpeg
+author:  Gilbert Permalloo
+affiliation: CSIRO Root Architecture & Rhizosphere # Or group/team
+photo: resources/img/Gilbert_01_07_19.jpeg
 
 short_title: Optional short title
 
@@ -26,12 +26,10 @@ library(kableExtra)
 
 
 # Introduction
-Introduce *yourself*. What's your background? Could you code before Data School? What did your 
-daily work pattern look like before Data School? Etc. This section will be placed in 
-an introductory block at the top of the page separate from the rest of the content. Don't change the section title from "Introduction" otherwise this process won't work correctly.
+My name is *Gilbert Permalloo*. I am a Research Project Officer and I am presently working on roots architecture and rhizosphere of wheat. My background is mainly sugarcane agronomy and I have been doing a little bit of programming in Fortran 77 and GWBasic about 30 years ago. Most of my data manipulation and visualisation were done in Excel. I could not write any code in R before I joined Data School and I was spending lots of time working with data in spreadsheets. On the otherhand, I am amazed to witness every day the marvel that R can do when working with data.
 
 # My Project
-Rather than yourself, this is the space to introduce your **project**. What are 
+The aim of this project is Rather than yourself, this is the space to introduce your **project**. What are 
 your goals, what was your data, how do you plan to work with it? Perhaps show some example data if 
 it would help.
 
