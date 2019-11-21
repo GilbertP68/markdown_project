@@ -7,7 +7,9 @@ photo: resources/img/Gilbert_01_07_19.gif
 
 short_title: Optional short title
 
-output: DSreport::project_summary
+output: 
+  DSreport::project_summary:
+    code_folding: hide
 ---
 <style> #you can specify any columns, it does not have to be column-left 
 .column-left{float: left; width: 33%; text-align: left;}
@@ -52,7 +54,7 @@ you also want to have alternate row highlighting, pass the result to `kable_styl
 from the `kableExtra` package.
 
 **Tables**
-```{r mytable, out.width='100%', echo = F}
+```{r mytable, out.width='100%', echo = T}
 knitr::kable(head(gapminder, n = 5), format = "html", caption = "A table of data") %>% 
   kable_styling("striped")
 ```
@@ -66,7 +68,7 @@ knitr::kable(head(gapminder, n = 5), format = "html", caption = "A table of data
 <div class = "row">
 
 <div class="col-md-6">
-```{r strawgrain-plot, out.width='100%', fig.align='center', fig.height= 4, fig.width=6, fig.cap="Amount of phosphorus (ppm) in straw vs in grains"}
+```{r strawgrain-plot, out.width='100%', fig.align='center', fig.height= 4, fig.width=6, fig.cap="Amount of phosphorus (ppm) in straw vs in grains", echo = TRUE}
 straw_grain_p <- read_csv("clean_data/straw_grain_p.csv")
 
 straw_grain <- ggplot(data = straw_grain_p,
