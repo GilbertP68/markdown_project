@@ -133,7 +133,7 @@ yield_Pconc +
 
 # My Digital Toolbox
 
-For this project, I have been using R - tidyverse, ggplot2, kableExtra, imager, data.table, readxl, lubridate
+For this project, I have been using the R version `r getRversion()` and the digital tools _tidyverse, ggplot2, kableExtra, imager, data.table, readxl, lubridate_
 
 ```{r note3, echo = F}
 # What digital tools have you been using in your project? Which ones have you learned since starting Data School?
@@ -174,17 +174,17 @@ For this project, I have been using R - tidyverse, ggplot2, kableExtra, imager, 
 # My time went ...
 
 Most of my time went into tidying up and cleaning the data. Then I realised how crucial it is to understand the "how" and "what" data to be collected, and the structure and formatting - not to forget how and where they are stored.
-I wrote codes in R to resolve the issues and bring them together in one clean data set that can be reused.
+I wrote codes in R to resolve the issues and bring them together in one clean data set that can be reused by anyone at anytime in the future.
 
 # Next steps
 
 I will continue to use R for data manipulation so that I improve my skills and build up my trust in good reusable data. I am looking forward to use R from preparing trial design, data manipulation, visualisation, analysing and to publishing.
 
 # My Data School Experience
-
-This poster is mostly about your synthesis project. However we would also like to hear about other
+My Data School experience has been a challenging, exciting and most of all very enriching. One of the challenges is to make a mind-shift to learn and adopt a new platform to manipulate data safely and with a high level of explicity and repeatability, that is far away from a risky and bad habit of working in spreadsheets. 
+<This poster is mostly about your synthesis project. However we would also like to hear about other
 parts of your Data School experience. What aspects of the program did you really enjoy? How have you
 been applying the skills you have learned in your daily work? Have you been able to transfer this 
 knowledge to your team members? Concrete examples demonstrating this would be useful here
 (meetings/talks/collaborations/new roles). Any descriptions of the personal impact the program has 
-had are welcome here as well!
+had are welcome here as well!>
