@@ -60,7 +60,7 @@ doing rather than being a publication ready document. -->
 data_straw_grain <- read_csv("clean_data/straw_grain_p.csv")
 
 data_straw_grain_p <- data_straw_grain %>% 
-  select(STEM_ID, GENOTYPE, straw_pconc, PAP.x, grain_pconc, yield) %>% 
+  select(STEM_ID, GENOTYPE, straw_pconc, PAP.x, grain_pconc, yield) %>%
   rename(`P in straw` = straw_pconc,`P in grain` = grain_pconc, `P level (kg/ha)` = PAP.x, `yield (kg)` = yield)
 
 knitr::kable(head(data_straw_grain_p, n = 5),
@@ -180,5 +180,5 @@ knowledge to your team members? Concrete examples demonstrating this would be us
 (meetings/talks/collaborations/new roles). Any descriptions of the personal impact the program has 
 had are welcome here as well-->
 
-## _A huge THANK YOU to ..._
+# A huge THANK YOU to ...
 Kerensa McElroy, Stephen Pearce, Nat Lui, Alex Whan, Neil Francis, Jen Taylor
