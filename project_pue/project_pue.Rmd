@@ -66,7 +66,7 @@ knitr::include_graphics("resources/img/pXRF.gif")
 
 <div class="col-md-6">
 
-```{r, fig.cap="Ground grains, empty cup and ground grains packed in cup", out.width="200px"}
+```{r, fig.cap="Ground grains, empty cup and ground grains packed in cup", out.width="215px"}
 knitr::include_graphics("resources/img/Ground_grain_cups.gif")
 ```
 
