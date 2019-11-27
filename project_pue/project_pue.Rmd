@@ -64,7 +64,7 @@ knitr::include_graphics("resources/img/Ground_grain_cups.gif")
 </div>
 
 ## Preliminary results
-Figures 3 and 4 show a relatively higher amount of phosphorus detected in the grains as compared to the straw. A slightly higher correlation between straw and grains for phosphorus assimilated under the 30kg/ha P treatment in comparison to the 0kg/ha P. Figure 2 shows that the level of P detected in the straw does not correlate with the grain yield. However, the amount of phosphorus detected in grains for the two treatments correlate differently to yield. Grains produced under the low treatment  tend to show a slight positive correlation to yield as opposed to the 30kg/ha treatment, which has a negative correlation to yield.
+Figures 3 and 4 show a relatively higher amount of phosphorus detected in the grains as compared to the straw. A slightly higher correlation between straw and grains for phosphorus assimilated under the 30kg/ha P treatment in comparison to the 0kg/ha P. Figure 4 shows that the level of P detected in the straw does not correlate with the grain yield. However, the amount of phosphorus detected in grains for the two treatments correlate differently to yield. Grains produced under the low treatment  tend to show a slight positive correlation to yield as opposed to the 30kg/ha treatment, which has a negative correlation to yield.
 
 <!-- # To get tables formatting correctly, use `knitr::kable` to convert the table to html format. If
 # you also want to have alternate row highlighting, pass the result to `kable_styling('striped')` 
